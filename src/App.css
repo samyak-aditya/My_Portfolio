@@ -1,0 +1,52 @@
+/* App.css */
+
+@keyframes floatUpDown {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.image1 {
+  -webkit-animation: floatUpDown 2s infinite alternate;
+  animation: floatUpDown 2s infinite alternate;
+  display: flex;
+  width: 40%; /* Set the initial width to 50% to make it responsive */
+  height: auto;
+  position: relative;
+  top:-50px;right:-100px;
+  
+}
+
+.desktop {
+  display: flex;
+  width: 50%; /* Set the initial width to 150% to make it responsive */
+  height: 50%;
+}
+
+/* Styles for mobile devices (screen width up to 640px) */
+@media (max-width: 640px) {
+  .flex-row {
+    flex-direction: row column;
+
+  }
+
+  .image1 {
+    flex-direction: row column;
+    width: 80%; /* Decrease the width to 60% on mobile devices */
+    position: relative;
+    top:250px; right: 180px;
+    
+  }
+
+  .desktop {
+     /* Decrease the width of the desktop image on mobile devices */
+    size: 200%;
+    width: 230%;
+    flex-direction: row column;
+    position: relative;
+    top:20px; right: -110px;
+  }
+}
