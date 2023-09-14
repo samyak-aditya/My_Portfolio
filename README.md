@@ -1,5 +1,8 @@
 # Getting Started with Create React App
 
+![portfolio111](https://github.com/samyak-aditya/my_portfolio/assets/91079592/123bb21c-b556-4e7f-9ef1-26732bde67ef)
+![portfolio222](https://github.com/samyak-aditya/my_portfolio/assets/91079592/2889d4bf-750e-4cc8-af7a-2477d7db2af1)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
